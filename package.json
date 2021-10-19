@@ -1,13 +1,13 @@
 {
   "name": "strapi-connector-aurora",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "A wrapper around strapi-connector-bookshelf extending it for use with the aurora data api.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nusrath Khan",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bluebird": "^3.7.2",
     "knex-aurora-data-api-client": "^1.6.4",
