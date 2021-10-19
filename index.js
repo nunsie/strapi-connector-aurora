@@ -17,8 +17,9 @@ const buildQuery = require('strapi-connector-bookshelf/lib/buildQuery');
 const mountModels = require('strapi-connector-bookshelf/lib/mount-models');
 const getQueryParams = require('strapi-connector-bookshelf/lib/get-query-params');
 const queries = require('strapi-connector-bookshelf/lib/queries');
-const initKnex = require('./lib/knex');
 const registerCoreMigrations = require('strapi-connector-bookshelf/lib/migrations');
+
+const initKnex = require('./lib/knex');
 
 /**
  * Bookshelf hook
