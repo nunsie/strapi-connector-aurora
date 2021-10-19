@@ -1,6 +1,6 @@
 {
   "name": "strapi-connector-aurora",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A wrapper around strapi-connector-bookshelf extending it for use with the aurora data api.",
   "main": "index.js",
   "scripts": {
