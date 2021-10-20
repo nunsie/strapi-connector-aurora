@@ -1,5 +1,5 @@
 {
-  "name": "strapi-connector-aurora",
+  "name": "strapi-connector-bookshelf",
   "version": "0.1.2",
   "description": "A wrapper around strapi-connector-bookshelf extending it for use with the aurora data api.",
   "main": "index.js",
@@ -12,5 +12,17 @@
     "bluebird": "^3.7.2",
     "knex-aurora-data-api-client": "^1.6.4",
     "strapi-connector-bookshelf": "3.1.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nunsie/strapi-connector-aurora.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nunsie/strapi-connector-aurora/issues"
+  },
+  "homepage": "https://github.com/nunsie/strapi-connector-aurora#readme"
 }
